@@ -1,0 +1,13 @@
+{
+  "name": "github-matcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MabiGermano/github-matcher.git",
+  "author": "MabiGermano <beatriz.germano@nubank.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "typeorm": "^0.3.6"
+  },
+  "type": "module"
+}
