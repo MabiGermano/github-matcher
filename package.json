@@ -6,8 +6,12 @@
   "author": "MabiGermano <beatriz.germano@nubank.com.br>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
     "nodemon": "^2.0.16",
-    "typeorm": "^0.3.6"
+    "typeorm": "^0.3.6",
+    "yarn.lock": "^0.0.1-security"
   },
   "type": "module"
 }
