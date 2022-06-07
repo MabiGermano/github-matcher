@@ -1,10 +1,13 @@
 import express from "express";
-import routes from "./routes.js";
+// import cors from "cors";
+import router from "./routes.js";
+import { dataSource } from "../data-source.js";
+
 
 const app = express();
-
+// app.use(cors());
 app.use(express.json());
-app.use(routes);
-const port = 3334;
+dataSource.initialize();
+app.use(router);
 
-app.listen(port, console.log(`Server port ${ port }`));
+app.listen(3334);
